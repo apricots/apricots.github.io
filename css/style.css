@@ -261,7 +261,7 @@ ul#menu-main > li > a:hover {
 	-o-background-size: cover;
 	background-size: cover;
 	;
-	min-height: 500px;
+	min-height: 400px;
 	margin-top: -60px;
 	padding-top:60px;
 	text-align:center;
@@ -288,6 +288,10 @@ ul#menu-main > li > a:hover {
 }
 .toptext{
 	color: #404040;
+	font-size: 16px;
+}
+.skill-box{
+	font-size: 20px !important;
 }
 #headerwrap h2 {
 	color: #000000;
