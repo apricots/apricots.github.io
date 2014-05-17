@@ -98,7 +98,7 @@ body, input, textarea {
 }*/
 a:hover, a:active {
 	color: #F1505A;
-	text-decoration: underline;
+	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal; /* reset default browser weight for our webfonts */
@@ -537,6 +537,19 @@ article .inside {
 	font-style: normal;
 	line-height: 2;
 	margin-right: 5px;
+}
+.company {
+	color: #A5A5A2;
+	font-family: 'Droid Sans';
+	font-size: 14px;
+	font-style: normal;
+	line-height: 2;
+}
+.jobtitle {
+	color: #000000;
+	font-family: 'Droid Sans';
+	font-size: 18px;
+	font-style: normal;
 }
 #news h1 {
 	font-size: 3em;

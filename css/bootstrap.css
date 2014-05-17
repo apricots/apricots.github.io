@@ -122,7 +122,7 @@ textarea {
 	box-shadow: none !important;
 }
 a,  a:visited {
-	text-decoration: underline;
+	text-decoration: none;
 }
 a[href]:after {
 	content: " (" attr(href) ")";
@@ -167,11 +167,15 @@ body {
 }
 a {
 	color: #ffffff;*/
-	text-decoration: none;
+	text-decoration: none !important;
+}
+.trying {
+	color: #ffffff;*/
+	text-decoration: none !important;
 }
 a:hover, a:focus {
 	color: #005580;
-	text-decoration: underline;
+		text-decoration: none !important;
 }
 .img-rounded {
 	-webkit-border-radius: 6px;
@@ -2518,7 +2522,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 }
 .btn-link:hover, .btn-link:focus {
 	color: #005580;
-	text-decoration: underline;
+	text-decoration: none;
 	background-color: transparent;
 }
 .btn-link[disabled]:hover, .btn-link[disabled]:focus {

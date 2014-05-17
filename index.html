@@ -57,14 +57,13 @@
           <div class="container">
             <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-            <h1 class="brand"><a href="#top">Legend!</a></h1>
+<!--             <h1 class="brand"><a href="#top">Legend!</a></h1> -->
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <nav class="pull-right nav-collapse collapse">
               <ul id="menu-main" class="nav">
-                <li><a title="portfolio" href="#portfolio">Portfolio</a></li>
-                <li><a title="services" href="#services">Services</a></li>
-                <li><a title="news" href="#news">News</a></li>
-                <li><a title="team" href="#team">Team</a></li>
+                <li><a title="portfolio" href="#portfolio">Projects</a></li>
+                <li><a title="services" href="#services">Skills</a></li>
+                <li><a title="news" href="#news">Resume</a></li>
                 <li><a title="contact" href="#contact">Contact</a></li>
               </ul>
             </nav>
@@ -253,7 +252,7 @@
           <!-- /.span3 -->
           <div class="span3">
             <div class="align"></div>
-            <h2>Bootstrap</h2>
+            <h2>Twitter Bootstrap</h2>
           </div>
           <!-- /.span3 -->
           <div class="span3">
@@ -298,10 +297,16 @@
           <article class="span12 post"> <!-- <img class="img-news" src="img/blog_img-01.jpg" alt=""> -->
             <div class="inside">
               <p class="post-date"><i class="icon-calendar"></i> October 2013 - Present</p>
-              <h2>Mobile Media Buyer</h2>
+              <div class='jobtitle'>Mobile Media Buyer</div>
+              <div class='company'>Matomy Media Group | New York, NY</div>
               <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-                <a href="#" class="more-link">read more</a> </div>
+                <ul class='fa-ul'>
+                  <li><i class="fa-li fa fa-circle-o"></i>Launch and scale international mobile campaigns on a variety of ad networks, including InMobi, Millenial Media, and DSPs</li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Manage over $150,000 in media spend monthly across various media channels, including search, social, display, email, print and mobile</li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Continually monitor live campaigns by meticulously adjusting bids according to performance by carrier, publisher, device, creatives, and other impactful criteria</li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Create and edit mobile and desktop landing pages and creatives using Photoshop, HTML, CSS, and jQuery mobile; A/B test to increase click-through rates and conversion rates</li>
+                </ul>
+<!--                 <a href="#" class="more-link">read more</a> </div> -->
             </div>
             <!-- /.inside -->
           </article>
@@ -311,12 +316,16 @@
           <!-- /.span4 -->
           <article class="span12 post"> <!-- <img class="img-news" src="img/blog_img-02.jpg" alt=""> -->
             <div class="inside">
-              <p class="post-date">February 28, 2013</p>
-              <h2>A bear sleeping on a tree</h2>
+              <p class="post-date">March 2013 – September 2013</p>
+              <div class='jobtitle'>Social Media Coordinator</div>
+              <div class='company'>Adconion Direct | San Diego, CA</div>
               <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-                <a href="#" class="more-link">read more</a> </div>
-            </div>
+                <ul class='fa-ul'>
+                  <li><i class="fa-li fa fa-circle-o"></i>Compiled weekly pacing reports and final campaign summaries for over 100 social campaigns; customized nuanced reports according to client’s unique KPI goals to show at-a-glance, impactful insights</li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Provided premium support to Account and Sales teams across N. America to ensure repeat business from agencies and clients; became primary point of contact for all ad-hoc reports to address any concerns throughout the campaign flight</li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Bought ad inventory and optimized campaigns using API and Facebook self-serve platform</li>
+                </ul>
+              </div>
             <!-- /.inside -->
           </article>
         </div>
@@ -324,12 +333,16 @@
                 <div class="row">
           <article class="span12 post"> <!-- <img class="img-news" src="img/blog_img-01.jpg" alt=""> -->
             <div class="inside">
-              <p class="post-date"><i class="icon-calendar"></i> October 2013 - Present</p>
-              <h2>Mobile Media Buyer</h2>
+              <p class="post-date">June 2012 – March 2013</p>
+              <div class='jobtitle'>Marketing Analyst</div>
+              <div class='company'>Adconion Direct | San Diego, CA</div>
               <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-                <a href="#" class="more-link">read more</a> </div>
-            </div>
+                <ul class='fa-ul'>
+                  <li><i class="fa-li fa fa-circle-o"></i>Delivered daily Hotmail and Yahoo e-mail campaigns to US, UK, Canada and Spain mailing lists for various Fortune 500 clients</li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Generated, using Excel pivot tables, vlookups, and macros, biweekly reports which included a comprehensive campaign summary, benchmarks, and monthly projections; meticulously finalized end-of-month numbers to deliver to executive team </li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Tested IP deliverability and monitored mailing servers; identified and communicated deliverability issues to management</li>
+                </ul>
+              </div>
             <!-- /.inside -->
           </article>
         </div>
@@ -338,18 +351,108 @@
           <!-- /.span4 -->
           <article class="span12 post"> <!-- <img class="img-news" src="img/blog_img-02.jpg" alt=""> -->
             <div class="inside">
-              <p class="post-date">February 28, 2013</p>
-              <h2>A bear sleeping on a tree</h2>
+              <p class="post-date">January – May 2012</p>
+              <div class='jobtitle'>Digital Analytics Intern</div>
+              <div class='company'>Lunchbox, JWT | Culver City, CA</div>
               <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-                <a href="#" class="more-link">read more</a> </div>
-            </div>
+                <ul class='fa-ul'>
+                  <li><i class="fa-li fa fa-circle-o"></i>Analyzed and interpreted website and social media data, using Omniture SiteCatalyst and Google Analytics to deliver actionable insights to clients and internal teams across multiple business verticals such as CPG, toys, electronics, games and music</li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Collaborated with Accounts and Technology teams to tag websites, platforms and apps thoroughly with customized tracking</li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Debugged websites using Charles HTTP proxy, logged issues found onto JIRA and followed-up on tickets until their resolutions</li>
+                </ul>
+              </div>
+            <!-- /.inside -->
+          </article>
+        </div>
+        <br>
+                <div class='row'>
+          <!-- /.span4 -->
+          <article class="span12 post"> <!-- <img class="img-news" src="img/blog_img-02.jpg" alt=""> -->
+            <div class="inside">
+              <p class="post-date">May – August 2011</p>
+              <div class='jobtitle'>Web Intern</div>
+              <div class='company'>DisneyToon Studios | Glendale, CA</div>
+              <div class="entry-content">
+                <ul class='fa-ul'>
+                  <li><i class="fa-li fa fa-circle-o"></i>Redesigned intranet website using Joomla, CSS, HTML, and Adobe Creative Suite; added interactive modules, managed company events/announcements, reorganized content, and promoted a better sense of community among over 180 employees </li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Created café and employee education websites; independently managed project timelines and goals</li>
+                </ul>
+              </div>
+            <!-- /.inside -->
+          </article>
+        </div>
+        <br>
+                <div class='row'>
+          <!-- /.span4 -->
+          <article class="span12 post"> <!-- <img class="img-news" src="img/blog_img-02.jpg" alt=""> -->
+            <div class="inside">
+              <p class="post-date">January – May 2012</p>
+              <div class='jobtitle'>Webmaster</div>
+              <div class='company'>Scripps Store | Claremont, CA</div>
+              <div class="entry-content">
+                <ul class='fa-ul'>
+                  <li><i class="fa-li fa fa-circle-o"></i>Analyzed and interpreted website and social media data, using Omniture SiteCatalyst and Google Analytics to deliver actionable insights to clients and internal teams across multiple business verticals such as CPG, toys, electronics, games and music</li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Collaborated with Accounts and Technology teams to tag websites, platforms and apps thoroughly with customized tracking</li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Debugged websites using Charles HTTP proxy, logged issues found onto JIRA and followed-up on tickets until their resolutions</li>
+                </ul>
+              </div>
+            <!-- /.inside -->
+          </article>
+        </div><br>
+                <div class='row'>
+          <!-- /.span4 -->
+          <article class="span12 post"> <!-- <img class="img-news" src="img/blog_img-02.jpg" alt=""> -->
+            <div class="inside">
+              <p class="post-date">January – April 2011</p>
+              <div class='jobtitle'>Graphic Design Intern</div>
+              <div class='company'>Felber, Kristofori Group | Florence, Italy</div>
+              <div class="entry-content">
+                <ul class='fa-ul'>
+                  <li><i class="fa-li fa fa-circle-o"></i>Brainstormed design concepts and strategies; supported Creative Director with the production of various graphic design assets, including packaging, event brochures, website layouts and photo reportages, using Adobe Photoshop, Illustrator and InDesign</li>
+                </ul>
+              </div>
             <!-- /.inside -->
           </article>
         </div>
           <!-- /.span4 -->
+          <h1>Education</h1>
+        <!-- Three columns -->
+        <div class="row">
+          <article class="span12 post"> <!-- <img class="img-news" src="img/blog_img-01.jpg" alt=""> -->
+            <div class="inside">
+              <p class="post-date"><i class="icon-calendar"></i> December 2011</p>
+              <div class='jobtitle'>Bachelor of Arts in Media Studies: Digital &amp; Electronic Media </div>
+              <div class='company'>Scripps College | Claremont, CA</div>
+              <div class="entry-content">
+                <ul class='fa-ul'>
+                  <li><i class="fa-li fa fa-circle-o"></i>Related Coursework: Computer Science, Graphic Design, Illustration, Media Theory, Statistics</li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Study Abroad Program: Studio Art Center International in Florence, Italy</li>
+                </ul>
+              </div>
+            </div>
+            <!-- /.inside -->
+          </article>
+        </div>
+<br>
+                <div class="row">
+          <article class="span12 post"> <!-- <img class="img-news" src="img/blog_img-01.jpg" alt=""> -->
+            <div class="inside">
+              <p class="post-date"><i class="icon-calendar"></i> February - April 2014</p>
+              <div class='jobtitle'>Ruby and Ruby on Rails Online Bootcamp</div>
+              <div class='company'>Tealeaf Academy</div>
+              <div class="entry-content">
+                <ul class='fa-ul'>
+                  <li><i class="fa-li fa fa-circle-o"></i>Introduction to Ruby and Web Development</li>
+                  <li><i class="fa-li fa fa-circle-o"></i>Rapid Prototyping with Ruby on Rails</li>
+                </ul>
+              </div>
+            </div>
+            <!-- /.inside -->
+          </article>
+        </div>
         </div>
         <!-- /.row -->
+
         <a href="#" class="btn btn-large">Resume</a> </div>
       <!-- /.container -->
     </section>
@@ -360,7 +463,9 @@
       <div class="container">
         <div class="align"></div>
         <h1>Contact Me</h1>
-        <h1><a href="http://instagram.com/nishsticks"><i class="fa fa-linkedin-square"></i></a> <a href="https://github.com/apricots"><i class="fa fa-github"></i></a> <i class="fa fa-instagram"></i> <i class="fa fa-envelope-o"></i></h1>
+
+         <center><h3 class ='trying'><a href="mailto:ngarigarn@gmail.com?subject=Hi"><i class="fa fa-envelope-o"></i> ngarigarn@gmail.com</a></h3></center>
+        <h1><a href="www.linkedin.com/in/nishagarigarn/"><i class="fa fa-linkedin-square"></i></a> <a href="https://github.com/apricots"><i class="fa fa-github"></i></a> <a href="http://instagram.com/nishsticks"><i class="fa fa-instagram"></i></a></h1>
         <div class="row">
           <div class="span12">
             <div class="cform" id="theme-form">
