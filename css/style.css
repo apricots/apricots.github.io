@@ -1124,3 +1124,8 @@ footer p {
 	@media only screen  and (min-width : 1224px) {
 /* Styles */
 	}
+
+
+.no-underline {
+	text-decoration: none !important;
+}
